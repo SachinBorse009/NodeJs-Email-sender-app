@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background: #ffff;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+  }
+  h1{
+    position: absolute;
+    font-size: 30px;
+    margin-top: -100px;
+    text-align: center;
+    margin-left: 50%;
+    transform: translate(-50%);
+    font-weight: 700;
+   
+   
+  }
+.contact-form{
+    background: rgb(148, 125, 248);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+    width: 600px;
+    height: 300px;
+    padding: 30px;
+    box-shadow: 10px 10px 20px rgb(68, 67, 67);
+    border-radius: 10px;
+}
+.form-control{
+    width: 300px;
+    background: #fff;
+    outline: none;
+    border: none;
+    border-left: 4px solid #4f4f4f;
+
+}
+h3{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+.btnContact{
+    background-color: whitesmoke;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 3px 8px;
+    border-left: 4px solid #4f4f4f;
+}
+.btnContact:hover{
+    background: #4f4f4f;
+    color: white;
+}
